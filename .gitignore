@@ -1,0 +1,10 @@
+# Fiber and GoLang git ignore
+# Fiber
+fiber.log
+# GoLang
+*.go
+*.gobin
+vendor/
+Gopkg.lock
+Gopkg.toml
+go.sum
