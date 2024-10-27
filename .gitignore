@@ -8,3 +8,5 @@ vendor/
 Gopkg.lock
 Gopkg.toml
 go.sum
+.idea
+.vscode
