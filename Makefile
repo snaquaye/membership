@@ -8,8 +8,7 @@ run:
 	./main
 
 dev:
-	cd www && npm run dev
-	cd .. && go run main.go
+	cd src && go run main.go
 
 npm-install:
 	npm install
