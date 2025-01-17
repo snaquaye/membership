@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to COZA Members Platform</title>
+</head>
+
+<body>
+    <p>Dear {{.FirstName | printf "%s"}}, </p>
+    <p>Welcome to COZA Members Platform.</p>
+    <p>Use the following OTP to verify your email: {{.Otp | printf "%s"}}</p>
+
+    <p><strong>COZA FHA Team</strong></p>
+</body>
+
+</html>

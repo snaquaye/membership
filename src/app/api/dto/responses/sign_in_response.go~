@@ -1,0 +1,8 @@
+package responses
+
+type SignInResponse struct {
+	Status   int
+	Message  string
+	Token    string
+	UserName string
+}

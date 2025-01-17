@@ -1,0 +1,12 @@
+package core_errors
+
+import "github.com/snaquaye/coza-fha-membership/src/app/core/appConstants"
+
+type AccountNotVerifiedError struct {
+	Err       error
+	ErrorCode appConstants.ErrorCodes
+}
+
+func (a AccountNotVerifiedError) Error() string {
+	return a.Err.Error()
+}

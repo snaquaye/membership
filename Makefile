@@ -16,4 +16,4 @@ npm-install:
 all: npm-install build build-go run
 
 ngrok:
-	ngrok http --url=pony-supreme-newly.ngrok-free.app 8080
+	ngrok http --url=pony-supreme-newly.ngrok-free.app 3000
